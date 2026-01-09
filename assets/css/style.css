@@ -1,0 +1,61 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',Arial,sans-serif;background:#f7f9fc;color:#102a43}
+
+.navbar{
+  position:fixed;top:0;width:100%;
+  background:#0f4c81;color:#fff;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:14px 28px;z-index:1000
+}
+.logo{font-size:20px;font-weight:600}
+.nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0}
+.nav-links a{color:#e3f2fd}
+.nav-links a.active,.nav-links a:hover{color:#ffeb3b}
+
+.marquee{
+  margin-top:58px;
+  background:#ffeb3b;color:#0f4c81;
+  padding:10px 0;text-align:center;font-weight:600
+}
+
+.hero{
+  height:100vh;
+  background:
+    linear-gradient(rgba(15,76,129,.55),rgba(15,76,129,.55)),
+    url('../images/wayanad.png') center/cover no-repeat;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;color:#fff
+}
+.hero-content h1{font-size:26px;font-weight:400}
+.hero-content h2{font-size:44px;font-weight:700}
+.hero-content h3{font-size:26px;letter-spacing:2px}
+.hero-sub{margin-top:12px}
+
+.page-hero{
+  margin-top:90px;
+  background:#1976d2;color:#fff;
+  padding:70px;text-align:center
+}
+
+.section{padding:80px 12%}
+.section.light{background:#fff}
+
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+
+table.dates-table{
+  width:100%;border-collapse:collapse
+}
+table.dates-table th,table.dates-table td{
+  border:1px solid #ccc;padding:14px;text-align:left
+}
+
+.sponsor-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.slot{
+  border:2px dashed #1976d2;
+  padding:50px;text-align:center;font-weight:600
+}
+
+footer{
+  background:#0f4c81;color:#fff;
+  text-align:center;padding:20px
+}
